@@ -12,7 +12,7 @@ System.out.println("THE REVERSED STRING IS: " +reverseString(str,"",0,str.length
 }
 public static String reverseString(String str,String reversed,int startIndex,int endIndex)
 {
-if(startIndex >=endIndex)
+if(startIndex >endIndex)
 {
 return reversed;
 }
